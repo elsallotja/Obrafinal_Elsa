@@ -1,0 +1,267 @@
+@font-face{
+	font-family: lettering;
+	src: url("../tipo/Signatra.otf");
+}
+
+@font-face{
+	font-family: titulo;
+	src: url("../tipo/Dream Orphans.otf");
+}
+
+@font-face{
+	font-family: regular;
+	src: url("../tipo/PlusJakartaSans-Regular.ttf");
+}
+
+@font-face{
+	font-family: semibold;
+	src: url("../tipo/PlusJakartaSans-SemiBold.ttf");
+}
+
+@font-face{
+	font-family: negrita;
+	src: url("../tipo/PlusJakartaSans-Bold.ttf");
+}
+
+/*Inici Menú*/
+nav {
+
+}
+
+.navbar{
+	height: auto;
+	background-color: #0A3F61 !important;
+	position: fixed;
+	width: 100%;
+}
+
+.navbar-brand>img{
+	height: 40px;
+	margin-left: 55%;
+}
+
+.navbar-nav> a{
+	font-family: titulo;
+	color: #FBEDD0;
+	font-size: 1.2rem;
+}
+
+.navbar-nav> a:hover{
+	font-family: titulo;
+	color: #E94949;
+	font-size: 1.2rem;
+}
+
+.nav-link:focus{
+	color: #FBEDD0;
+}
+
+.navbar-collapse{
+	flex-grow: 0;
+}
+
+.navbar-toggler{
+	border: solid 0px;
+}
+
+.navbar-toggler-icon {
+	background-image: url("../media/bars-solid.svg") !important;
+}
+
+/*Final Menú*/
+
+
+
+
+
+
+
+/*Inici Banner*/
+.container1{
+	width: 100vw;
+	height: auto;
+	background-color: #FBEDD0;
+	padding-top: 60px;
+}
+
+.row{
+	--bs-gutter-x: 0rem;
+}
+
+.container1>video{
+	width: 100vw;
+	height: auto;
+}
+/*Final Banner*/
+
+
+
+/*Inici sobre el handmade*/
+.container2{
+	width: 100vw;
+	height: auto;
+	background-image: url("../media/estampadoazul.png");
+	background-position: center;
+	background-size: cover;
+	justify-content: center;
+	padding-top: 3%;
+	padding-bottom: 6%;
+	margin-top: -2%;
+}
+
+.colum2{
+	width: 65%;
+	height: auto;
+	background-color: #FBEDD0;
+	border-radius: 2.5rem;
+	margin-top: 5%;
+	padding-left: 5%;
+	padding-right: 5%;
+	padding-top: 3%;
+	padding-bottom: 3%;
+}
+
+.colum21{
+	width: 65%;
+	height: auto;
+	background-color: transparent;
+	border-radius: 2.5rem;
+	margin-top: 5%;
+	padding-left: 5%;
+	padding-right: 5%;
+}
+
+.colum21>h1{
+	font-family: lettering;
+	font-size: calc(3.2rem + 1vw);
+	color: #FBEDD0;
+	text-align: center;
+}
+
+.colum21>h2{
+	font-family: regular;
+	font-size: calc(1rem + 0.3vw);
+	color: #FBEDD0;
+	text-align: center;
+}
+
+.colum2>h3{
+	font-family: titulo;
+	font-size: calc(1.5rem + 0.7vw);
+	color: #0A3F61;
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+.colum2>h4{
+	font-family: regular;
+	font-size: calc(0.7rem + 0.7vw);
+	color: #0A3F61;
+	text-align: center;
+}
+
+.colum21>h3{
+	font-family: titulo;
+	font-size: calc(1.5rem + 0.7vw);
+	color: #FBEDD0;
+	text-align: center;
+	margin-bottom: 30px;
+}
+
+.colum21>h4{
+	font-family: regular;
+	font-size: calc(0.7rem + 0.7vw);
+	color: #FBEDD0;
+	text-align: center;
+}
+/*Final sobre el handmade*/
+
+
+
+
+/*Inici footer*/
+.containerfooter{
+	width: 100vw;
+	height: auto;
+	background-color: #0A3F61;
+	padding-top: 40px;
+	padding-bottom: 1%;
+}
+
+.logo{
+	width: 10%;
+	min-width: 142px;
+	height: auto;
+/*	background-color: red;
+	border: solid black 2px;*/
+	/*padding: 50px;*/
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	margin-bottom: 10px;
+}
+
+.xarxes{
+	width: 12%;
+	min-width: 172px;
+	height: auto;
+	/*background-color: red;
+	border: solid black 2px;*/
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.xarxes{
+	display: flex;
+}
+
+.footericones{
+	width: calc(33% - 10px);
+	margin: 5px;
+}
+
+.icones{
+	width: 100%;
+	height: auto;
+}
+
+.marques{
+	height: auto;
+	/*background-color: red;
+	border: solid black 2px;*/
+	justify-content: center;
+	margin-top: 4%;
+	padding-left: 10px;
+	padding-right: 10px;
+	margin-bottom: 50px;
+}
+
+.marques>h1{
+	font-family: regular;
+	font-size:  calc(0.5rem + 0.3vw);
+	color: #FBEDD0;
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+.marques>h2{
+	font-family: semibold;
+	font-size:  calc(0.6rem + 0.3vw);
+	color: #FBEDD0;
+	text-align: center;
+}
+
+.marques>img{
+	width: 50%;
+	height: auto;
+	margin-left: 25%;
+}
+
+.containerfooter>h1{
+	font-family: regular;
+	font-size: calc(0.2rem + 0.7vw);
+	text-align: center;
+	color: #FBEDD0;
+}
+/*Final footer*/
+

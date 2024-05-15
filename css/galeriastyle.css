@@ -1,0 +1,277 @@
+@font-face{
+	font-family: lettering;
+	src: url("../tipo/Signatra.otf");
+}
+
+@font-face{
+	font-family: titulo;
+	src: url("../tipo/Dream Orphans.otf");
+}
+
+@font-face{
+	font-family: regular;
+	src: url("../tipo/PlusJakartaSans-Regular.ttf");
+}
+
+@font-face{
+	font-family: semibold;
+	src: url("../tipo/PlusJakartaSans-SemiBold.ttf");
+}
+
+@font-face{
+	font-family: negrita;
+	src: url("../tipo/PlusJakartaSans-Bold.ttf");
+}
+
+
+
+/*Inici Menú*/
+.navbar{
+	height: auto;
+	background-color: #0A3F61 !important;
+	position: fixed;
+	width: 100%;
+	z-index: 8;
+}
+
+.navbar-brand>img{
+	height: 40px;
+	margin-left: 55%;
+}
+
+.navbar-nav> a{
+	font-family: titulo;
+	color: #FBEDD0;
+	font-size: 1.2rem;
+}
+
+.navbar-nav> a:hover{
+	font-family: titulo;
+	color: #E94949;
+	font-size: 1.2rem;
+}
+
+.nav-link:focus{
+	color: #FBEDD0;
+}
+
+.navbar-collapse{
+	flex-grow: 0;
+}
+
+.navbar-toggler{
+	border: solid 0px;
+}
+
+.navbar-toggler-icon {
+	background-image: url("../media/bars-solid.svg") !important;
+}
+
+/*Final Menú*/
+
+
+
+
+
+
+/*Inici expositors*/
+.section1{
+	width: 100vw;
+	height: auto;
+	background-image: url("../media/estampadoamarillo.png");
+	background-position: center;
+	background-size: cover;
+	justify-content: center;
+	padding-top: 90px;
+	padding-left: 22%;
+	padding-right: 22%;
+	padding-bottom: 3%;
+}
+
+.section1>h1{
+	font-family: lettering;
+	font-size: calc(4rem + 1vw);
+	color: #0A3F61;
+	text-align: center;
+}
+
+.col1{
+	/*background-color: red;
+	border: 2px solid black;*/
+	padding: 1%;
+}
+
+.col1>img{
+	width: 100%;
+	height: auto;
+	border: 3px solid #FBEDD0;
+}
+/*Final expositors*/
+
+
+
+
+
+
+/*Inici foodtrucks*/
+.section2{
+	width: 100vw;
+	height: auto;
+	background-color: #FBEDD0;
+	padding-top: 90px;
+	padding-left: 22%;
+	padding-right: 22%;
+	padding-bottom: 3%;
+}
+
+.section2>h1{
+	font-family: lettering;
+	font-size: calc(4rem + 1vw);
+	color: #0A3F61;
+	text-align: center;
+}
+
+.col2{
+	/*background-color: red;
+	border: 2px solid black;*/
+	padding: 1%;
+}
+
+.col2>img{
+	width: 100%;
+	height: auto;
+	border: 3px solid #E59D12;
+}
+/*Final foodtrucks*/
+
+
+
+
+
+
+
+/*Inici tallers*/
+.section3{
+	width: 100vw;
+	height: auto;
+	background-image: url("../media/estampadoamarillo.png");
+	background-position: center;
+	background-size: cover;
+	justify-content: center;
+	padding-top: 90px;
+	padding-left: 22%;
+	padding-right: 22%;
+	padding-bottom: 3%;
+}
+
+.section3>h1{
+	font-family: lettering;
+	font-size: calc(4rem + 1vw);
+	color: #0A3F61;
+	text-align: center;
+}
+
+.col3{
+	/*background-color: red;
+	border: 2px solid black;*/
+	padding: 1%;
+}
+
+.col3>img{
+	width: 100%;
+	height: auto;
+	border: 3px solid #FBEDD0;
+}
+/*Final tallers*/
+
+
+
+
+
+
+
+/*Inici footer*/
+.containerfooter{
+	width: 100vw;
+	height: auto;
+	background-color: #0A3F61;
+	padding-top: 40px;
+	padding-bottom: 1%;
+}
+
+.logo{
+	width: 10%;
+	min-width: 142px;
+	height: auto;
+/*	background-color: red;
+	border: solid black 2px;*/
+	/*padding: 50px;*/
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	margin-bottom: 10px;
+}
+
+.xarxes{
+	width: 12%;
+	min-width: 172px;
+	height: auto;
+	/*background-color: red;
+	border: solid black 2px;*/
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.xarxes{
+	display: flex;
+}
+
+.footericones{
+	width: calc(33% - 10px);
+	margin: 5px;
+}
+
+.icones{
+	width: 100%;
+	height: auto;
+}
+
+.marques{
+	height: auto;
+	/*background-color: red;
+	border: solid black 2px;*/
+	justify-content: center;
+	margin-top: 4%;
+	padding-left: 10px;
+	padding-right: 10px;
+	margin-bottom: 50px;
+}
+
+.marques>h1{
+	font-family: regular;
+	font-size:  calc(0.5rem + 0.3vw);
+	color: #FBEDD0;
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+.marques>h2{
+	font-family: semibold;
+	font-size:  calc(0.6rem + 0.3vw);
+	color: #FBEDD0;
+	text-align: center;
+}
+
+.marques>img{
+	width: 50%;
+	height: auto;
+	margin-left: 25%;
+}
+
+.containerfooter>h1{
+	font-family: regular;
+	font-size: calc(0.2rem + 0.7vw);
+	text-align: center;
+	color: #FBEDD0;
+}
+/*Final footer*/
