@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Entrades</title>
+
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/entradesstyle.css">
+</head>
+<body>
+	
+<!-- Inici Menú -->
+ 	<nav class="navbar navbar-expand-lg bg-body-tertiary">
+  		<div class="container-fluid">
+    		<a class="navbar-brand" href="index.html"><img src="media/logo.letras.png" alt="lletres logo"></a>
+    		<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+      			<span class="navbar-toggler-icon"></span>
+    		</button>
+    		<div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+      			<div class="navbar-nav">
+        			<a class="nav-link" href="oniquan.html">ON I QUAN</a>
+        			<a class="nav-link" href="entrades.html">ENTRADES</a>
+        			<a class="nav-link" href="expositors.html">EXPOSITORS</a>
+       	 			<a class="nav-link" href="galeria.html">GALERIA</a>
+       	 			<a class="nav-link" href="#">ARTISTES HANDMADE</a>
+        			<a class="nav-link" href="#">TALLERS</a>
+      			</div>
+    		</div>
+  		</div>
+	</nav>
+	<!-- Final Menú -->
+
+
+
+
+
+	<!-- Inici entrades -->
+	<div class="section1 d-flex flex-wrap">
+		<div class="row entrades">
+			<div class="col-xxl-2 col-md-3 col-6 col1">
+				<h1>ENTRADA INDIVIDUAL DIA (ADULTS)</h1>
+				<h2>_______________</h2>
+				<h3>Acces 1 dia de fira en horari complet</h3>
+				<h2>_______________</h2>
+				<h4>Accés divendres o diumenge: <br>
+					<span class="negreta">8€</span> online <br>
+					<span class="negreta">10€</span> en taquilla</h4>
+				<h4>Accés dissabte: <br>
+					<span class="negreta">10€</span> online <br>
+					<span class="negreta">12€</span> en taquilla</h4>	
+			</div>
+			<div class="col-xxl-2 col-md-3 col-6 col1">
+				<h1>ENTRADA INDIVIDUAL DIA (PETITS I GRANS)</h1>
+				<h2>_______________</h2>
+				<h3>Acces 1 dia de fira en horari complet</h3>
+				<h2>_______________</h2>
+				<h4>Accés divendres o diumenge: <br>
+					<span class="negreta">6€</span> online <br>
+					<span class="negreta">8€</span> en taquilla</h4>
+				<h4>Accés dissabte: <br>
+					<span class="negreta">8€</span> online <br>
+					<span class="negreta">10€</span> en taquilla</h4>	
+			</div>
+			<div class="col-xxl-2 col-md-3 col-6 col1">
+				<h1>ENTRADA INDIVIDUAL TARDA (TOTES LES EDATS)</h1>
+				<h2>_______________</h2>
+				<h3>Acces a la fira a partir de les 17h</h3>
+				<h2>_______________</h2>
+				<h4>Accés divendres o diumenge: <br>
+					<span class="negreta">6€</span> online <br>
+					<span class="negreta">8€</span> en taquilla</h4>
+				<h4>Accés dissabte: <br>
+					<span class="negreta">8€</span> online <br>
+					<span class="negreta">10€</span> en taquilla</h4>	
+			</div>
+		</div>
+		<div class="row entrades">
+			<div class="col-xxl-2 col-md-3 col-6 col1">
+				<h1>ENTRADA INDIVIDUAL <br> bono 3 DIES</h1>
+				<h2>_______________</h2>
+				<h3>Acces a 3 dies de fira en horari complet</h3>
+				<h2>_______________</h2>
+				<h4>
+					<span class="negreta">21€</span> online <br>
+					<span class="negreta">23€</span> en taquilla</h4>	
+			</div>
+			<div class="col-xxl-2 col-md-3 col-6 col1">
+				<h1>ENTRADA + TOTEBAG</h1>
+				<h2>_______________</h2>
+				<h3>Accés 1 dia de fira en horari complet + totebg</h3>
+				<h2>_______________</h2>
+				<h4>Divendres o diumenge: <br>
+					<span class="negreta">15€</span> <br> </h4>
+				<h4>Dissabte: <br>
+					<span class="negreta">16€</span> online <br></h4>	
+			</div>
+			<div class="col-xxl-2 col-md-3 col-6 col1">
+				<h1>ACCÉS A UN TALLER EXPRÉS</h1>
+				<h2>_______________</h2>
+				<h3>Accés divendres, dissabte o diumenge</h3>
+				<h2>_______________</h2>
+				<h4>
+					<span class="negreta">10€</span> online <br>
+					<span class="negreta">12€</span> en taquilla</h4>
+	
+			</div>
+		</div>
+		<a class="boto" onclick="showModal()">COMPRAR</a>
+	</div>
+	<!-- Final entrades -->
+
+
+
+
+
+
+	<!-- Inici overlay -->
+	<div class="section2" id="modalComprar">
+		<div class="caixa2">
+		<label for="">Nom:</label> <br>
+		<input type="text"> <br>
+		<label for="">Correu electronic:</label> <br>
+		<input type="text"> <br>
+		<label for="">Tipus d'entrada:</label> <br>
+		<select name="entrades" id="seleccio"> <br>
+			<option value="ENTRADA INDIVIDUAL DIA (ADULTS)">ENTRADA INDIVIDUAL DIA (ADULTS)</option>
+			<option value="ENTRADA INDIVIDUAL DIA (PETITS I GRANS)">ENTRADA INDIVIDUAL DIA (PETITS I GRANS)</option>
+			<option value="ENTRADA INDIVIDUAL TARDA (TOTES LES EDATS)">ENTRADA INDIVIDUAL TARDA (TOTES LES EDATS)</option>
+			<option value="ENTRADA INDIVIDUAL bono 3 DIES">ENTRADA INDIVIDUAL bono 3 DIES</option>
+			<option value="ENTRADA + TOTEBAG">ENTRADA + TOTEBAG</option>
+			<option value="ACCÉS A UN TALLER EXPRÉS">ACCÉS A UN TALLER EXPRÉS</option>
+		</select> <br>
+		<label for="">Dia:</label> <br>
+		<input type="date">
+		</div>
+		<div class="caixa21">
+		<a class="boto2" onclick="hideModal()">ENVIAR</a>
+		</div>
+	</div>
+
+	<!-- Final overlay -->
+
+
+
+
+
+
+
+	<!-- Inici Footer -->
+	<div class="containerfooter container-fluid">
+		
+		<img class="logo" src="media/footer/logo.definitivo.png" alt="logo">
+		
+		<div class="xarxes">
+			<div class="footericones">
+				<a target="_blank" href="https://www.facebook.com/handmadefestivalbcn/?locale=es_ES"><img class="icones" src="media/footer/facebook.png" alt="facebook"></a>
+			</div>
+			<div class="footericones">
+				<a target="_blank" href="https://www.instagram.com/elhandmadefestival?igsh=MW40a2RheGV5eDczdQ=="><img class="icones" src="media/footer/instagram.png" alt=""></a>
+			</div>
+			<div class="footericones">
+				<a target="_blank" href="https://www.pinterest.es/hmfbcn/"><img class="icones" src="media/footer/pinterest.png" alt=""></a>
+			</div>
+		</div>
+
+		<div class="row colmarques">
+				<div class="col-xxl-2 col-md-2 col-4 marques">
+					<h1>ORGANITZA</h1>
+					<img src="media/footer/logoblanc-evident-events.png" alt="">
+				</div>
+				<div class="col-xxl-2 col-md-2 col-4 marques">
+					<h1>UBICACIÓ</h1>
+					<img src="media/footer/logo_fira_barcelona-300x138.png" alt="">
+				</div>
+				<div class="col-xxl-2 col-md-2 col-4 marques">
+					<h1>COLABORA</h1>
+					<img src="media/footer/logo_casa_asia_2022.png" alt="">
+				</div>
+				<div class="col-xxl-2 col-md-2 col-6 marques">
+					<h1>MEDIA PORTNER</h1>
+					<img src="media/footer/elperiodico.png" alt="">
+				</div>
+				<div class="col-xxl-4 col-md-4 col-6 marques">
+					<h1>VOLS VENIR A EXPOSAR?</h1>
+					<h2>Mail: <br>
+					handmadefestival@evidentevents.com <br>
+					Premsa: <br>
+ 					comunicacio@evidentevents.com</h2>
+				</div>
+			</div>
+			<h1>© Copyright HANDMADE FESTIVAL 2024 Política de Cookies | Avís Legal | Política de privacitat</h1>
+	</div>
+	<!-- Final Footer -->
+	
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/Scripts.js"></script>
+</body>
+</html>
